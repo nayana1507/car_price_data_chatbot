@@ -23,8 +23,6 @@ This project requires Python 3.x and the following libraries:
 | **pandas** | Data loading, cleaning, and filtering. |
 | **gradio** | Creating the web-based chatbot interface. |
 
-You can install all required packages using the `requirements.txt` file provided.
-
 ### Data Source
 
 The notebook requires a file named `cardata.csv`. The notebook loads this file, performs a cleaning step (dropping index 100 to 200), and saves a modified version as `cleaned_car_data.csv`.
